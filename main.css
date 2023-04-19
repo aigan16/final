@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap');
+
+* { 
+  margin: 0; 
+  padding: 0; 
+} 
+
+:root{
+    background-color: #94DFF5;
+}
+
+body{
+    font-family: 'inter';
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #FFFFFF;
+    z-index: 1000;
+}
+
+nav .logo{
+    padding: 0;
+    margin-right: 0px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+
+nav a{
+    color: #00D1FF;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+nav a:hover{
+    color: #F48CBB;
+    transition: .5s;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #F48CBB;
+    color: #FFFFFF;
+    font-size: 17px;
+    cursor: pointer;
+    padding:.8rem 3.5rem;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.btn:hover{
+    background:var(--white);
+    transition: .5s;
+}
+
+.home1 {
+    color: #00D1FF;
+    font-family: 'Inter', sans-serif;
+}
+.about1 {
+    color: #48FF07;
+    font-family: 'Inter', sans-serif;
+}
+.classes1 {
+    color: #FF9C07;
+    font-family: 'Inter', sans-serif;
+}
+.teachers1 {
+    color: #FF0707;
+    font-family: 'Inter', sans-serif;
+}
+.contact1 {
+    color: #EA13BB;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/*__________________________home_________________________*/
+
+.home{
+    background-color: #94DFF5;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+
+.main-img {
+    float: right;
+    margin-right: -20px;
+}
+
+.home .content{
+    max-width: 45rem;
+}
+
+.home .content h3{
+    font-size: 65px;
+    color:#2B3D9F;
+    margin-top: -59px;
+    font-family: 'Truculenta';
+    font-weight: 500;
+}
+
+.home .content p{
+    font-size: 22px;
+    color:#6D6D6D;
+    padding: 2rem 0;
+    line-height: 30px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+/*__________________________icons_________________________*/
+.icons-container{
+    background: #EBF0F3;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:4.5rem;
+    padding-bottom: 1rem;
+}
+
+.icons-container .cloud-img{
+    margin-top: -151px;
+}
+
+.icons-container .icons{
+    padding: 16px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info p {
+    text-align: center;   
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+.icons-container .icons .info h3{
+    color: #2B3D9F;
+    line-height: 36px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    }
+
+
+/*__________________________about_________________________*/
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #EBF0F3;
+    padding-bottom: 150px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.first-photo img{
+    padding: 108px;
+    margin-top: 0px;
+}
+
+.about .content{
+    flex: 14 2 44rem;
+    padding: 0.5rem;
+}
+
+
+.about .content h3{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 50px;
+    line-height: 54px;
+    color:#2B3D9F;
+    margin-top: 20px;
+    line-height: 122px;
+}
+
+.about .content p{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 25px;
+    color: #676767;
+}
+
+.texts {
+    margin-top: 32px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.content ul {
+    margin-left: 75px;
+    position: absolute;
+}
+
+.btn2{
+    display: inline-block;
+    margin-top: 12rem;
+    border-radius: 10rem;
+    background: #F48CBB;
+    color: #FFFFFF;
+    font-size: 17px;
+    cursor: pointer;
+    padding:.8rem 2.5rem;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.btn2:hover{
+    background:var(--white);
+    transition: .5s;
+}
+
+
+/*__________________________actitvties_________________________*/
+.blue-clouds{
+    position: absolute;
+    margin-top: -284px;
+}
+
+.act-photos {
+    display: flex;
+    justify-content: center;
+    column-gap: 106px;
+}
+.activities {
+    background-color: #A3D4F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:4.5rem;
+    padding-bottom: 237px;
+    }
+
+.our h3{
+    font-family: "Zen Maru Gothic";
+    color: #FFFFFF;
+    font-size: 62px;
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+}
+
+.photos {
+    /* margin-top: 278px;
+    display: flex;
+    flex-direction: column; */
+    align-items: center;
+}
+
+.mat p {
+    text-align: center;   
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+.mat h3{
+    color: #2B3D9F;
+    line-height: 49px;
+    font-size: 25px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 800    ;
+    text-align: center;
+    }
+
+
+/*__________________________gallery_________________________*/
+
+.our-gallery{
+    margin-top: -51px;
+    padding-top: 80px;
+    background-color: #EBF0F3;
+}
+.our-gallery h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Zen Maru Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 96px;
+
+    color: #2E3F9F;
+}
+
+.cloud-img{
+    margin-top: -154px;
+}
+
+.cloud-img1{
+    margin-top: -149px;
+}
+
+.img-gallery{
+    width: 80%;
+    margin: 71px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,230px));
+    column-gap: 15px;
+    row-gap: 0px;
+}
+
+.img-gallery img{
+    width: 100%;
+    cursor: pointer;
+
+    transition: all 0.1s ease-in;
+}
+
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgb(68, 77, 136, 0.2);
+}
+
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img{
+    width: 90%;
+    max-width: 500px;
+}
+
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*__________________________parent_________________________*/
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .container {
+    width: 80vw;
+    max-width: var(--fixed-width);
+  }
+  .review {
+    background: var(--clr-white);
+    padding: 1.5rem 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition);
+    text-align: center;
+  }
+  .review:hover {
+    box-shadow: var(--dark-shadow);
+  }
+  .img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  #person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  }
+  .img-container::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f10e";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transform: translateY(25%);
+    background: var(--clr-primary-5);
+    color: var(--clr-white);
+  }
+  .img-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--clr-primary-5);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  }
+  #author {
+    margin-bottom: 0.25rem;
+  }
+  #job {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: var(--clr-primary-5);
+    font-size: 0.85rem;
+  }
+  #info {
+    margin-bottom: 0.75rem;
+  }
+  .prev-btn,
+  .next-btn {
+    color: var(--clr-primary-7);
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  .prev-btn:hover,
+  .next-btn:hover {
+    color: var(--clr-primary-5);
+  }
+  .random-btn {
+    margin-top: 0.5rem;
+    background: var(--clr-primary-10);
+    color: var(--clr-primary-5);
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    border-color: var(--clr-primary-5);
+    cursor: pointer;
+  }
+  .random-btn:hover {
+    background: var(--clr-primary-5);
+    color: var(--clr-primary-1);
+  }
+
+
+
+/*__________________________classes_________________________*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--clr-white);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    z-index: 999;
+    transition: var(--transition);
+  }
+  .hide-preloader {
+    z-index: -999;
+    visibility: hidden;
+  }
+  
+  header {
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+  }
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+  }
+  h1 {
+    color: var(--clr-white);
+  }
+  /* switch button */
+  
+  .switch-btn {
+    position: absolute;
+    bottom: 7%;
+    left: 7%;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    border-radius: var(--radius);
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    transition: var(--transition);
+  }
+  .switch-btn span {
+    display: inline-block;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: var(--clr-primary-5);
+  }
+  .switch {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--clr-primary-5);
+    border-radius: var(--radius);
+    margin: 0;
+    display: block;
+    transition: var(--transition);
+  }
+  .slide .switch {
+    left: 50%;
+  }
+  /* header after */
+  header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+  }
+
+
+  .products .box-container{
+    background:#f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.products .box-container .box{
+    flex:1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0,.1);
+    border-radius: .5rem;
+    border:.1rem solid rgba(0, 0, 0,.1);
+    position: relative;
+}
+
+.products h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Inter";
+    line-height: 50px;
+    color: #3b3b3b;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #D1D4D9;
+}
+
+.products .box-container .box .discount{
+    position: absolute;
+    top:1rem; left:1rem;
+    padding:.7rem 1rem;
+    font-size: 1.3rem;
+    color:var(--black);
+    background: #0034810d;
+    z-index: 1;
+    border-radius: .5rem;
+}
+
+.products .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 1.5rem;
+    overflow: hidden;
+}
